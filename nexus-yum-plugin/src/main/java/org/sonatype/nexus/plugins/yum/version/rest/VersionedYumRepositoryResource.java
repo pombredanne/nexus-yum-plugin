@@ -33,8 +33,8 @@ import org.sonatype.plexus.rest.resource.PathProtectionDescriptor;
 import org.sonatype.plexus.rest.resource.PlexusResource;
 
 @Component( role = PlexusResource.class, hint = "VersionizedYumRepositoryResource" )
-@Path( VersionizedYumRepositoryResource.RESOURCE_URI )
-public class VersionizedYumRepositoryResource
+@Path( VersionedYumRepositoryResource.RESOURCE_URI )
+public class VersionedYumRepositoryResource
     extends AbstractYumRepositoryResource
     implements PlexusResource
 {
